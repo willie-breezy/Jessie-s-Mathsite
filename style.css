@@ -1,0 +1,83 @@
+body{
+    background-color: pink;
+}
+.mains{
+    position: relative;
+}
+@keyframes main-animation{
+    from {border-color: rgb(93, 151, 202);}
+    to {border-color: greenyellow;}
+}
+.main-container{
+    background-color: rgb(255, 248, 248);
+    height: 300px;
+    width: 409px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 5px;
+    box-shadow: 14px 16px 23px 2px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 14px 16px 23px 2px rgba(0,0,0,0.17);
+    -moz-box-shadow: 14px 16px 23px 2px rgba(0,0,0,0.17);
+    border: 3px solid rgb(93, 151, 202);
+    animation-name: main-animation;
+    animation-duration: 8s;
+    animation-direction: ease-in-out;
+}
+.input-container{
+    display: flex;
+    padding: 3em 1em;
+}
+span{
+    position: absolute;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(93, 151, 202);
+}
+input{
+    width: 3.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid pink;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(93, 151, 202);
+    text-shadow: 2px 0px 3px rgb(71, 71, 71);
+}
+p{
+    padding: 1.5em 0.5em 1.5em 0.5em;
+    font-weight: 900;
+    font-size: 1em;
+}
+button{
+    display: flex;
+    padding: 0.8em 3em;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #FBEAEB;
+    border: 1px solid #EEA47FFF;
+    color: rgb(93, 151, 202);
+    font-weight: 900;
+    box-shadow: 0 0 1px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    box-shadow: 0 0 5px;
+}
+
+.right-response{
+    background-color: greenyellow;
+}
+.neutral{
+    background-color: white;
+}
+
+
